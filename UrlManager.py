@@ -141,7 +141,7 @@ def testUrlManager():
 
 def test2UrlManager():
     lines = None
-    with open("taobao.store.bak") as f:
+    with open("taobao.store") as f:
         lines = f.readlines()
     lines = map(lambda x: x.strip('\n'), lines)
 
